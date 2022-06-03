@@ -40,7 +40,7 @@ a:hover {
     width: 100%;
 }
 
-/*#topbg{ background:url(../images/top-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
+/*#topbg{ background:url(../images/hn-foot-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
 #topbg {
     width: 100%;
     height: 159px;
@@ -65,9 +65,9 @@ a:hover {
 
 .topr {
     position: absolute;
-    width: 500px;
+    width: 300px;
     height: 150px;
-    right: 0;
+    right: -150px;
     top: 43px;
 }
 
@@ -972,6 +972,7 @@ a:hover {
     width: 100%;
     border-top: 1px #555 solid;
     background: #900;
+    /*background:url(../images/hn-foot-bg.jpg) no-repeat center center; */
     height: 120px;
     padding: 30px 0;
     position: relative;
@@ -1020,35 +1021,44 @@ a:hover {
 
 
 .g-team {
-    width: 1000px;
+    width: 1180px;
     margin: 0 auto;
     padding-top: 50px;
     overflow: auto;
 }
 
 .g-team .item {
-    width: 395px;
+    width: 300px;
     height: 170px;
-    border: 1px solid #e5e5e5;
-    margin-left: 80px;
+    /*border: 1px solid #700;*/
+    margin-left: 90px;
     position: relative;
-    padding-left: 90px;
-    padding-top: 20px;
+    padding-left: 70px;
+    /*padding-top: 0px;*/
     float: left;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
-.g-team .item:nth-child(2n) {
-    margin-left: 130px;
+.g-team .item .teamname {
+    FONT-SIZE: 20px;
+    POSITION: absolute;
+    LEFT: 87px;
+    DISPLAY: inline-block;
+    TOP: -30px;
+}
+
+
+.g-team .item:nth-child(3n) {
+    margin-left: 90px;
 }
 
 .g-team .item img {
     width: 140px;
-    height: 190px;
+    height: 180px;
     background: #eee;
     position: absolute;
     left: -80px;
-    top: -50px;
+    top: -40px;
 }
 
 .g-team .item span {
@@ -1059,8 +1069,13 @@ a:hover {
     font-size: 24px;
 }
 
+/*.g-team .item ul{*/
+/*    display:block;*/
+/*       list-style-type:none;*/
+/*margin:-5px;*/
+/*}*/
 .g-team .item ul li {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 38px;
     position: relative;
     padding-left: 20px;
@@ -1081,6 +1096,14 @@ a:hover {
 }
 
 
+.part {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto;
+    background: #FFF;
+}
+
 
 .part1 {
     float: left;
@@ -1089,8 +1112,87 @@ a:hover {
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: -50px;
     position: relative;
 }
+
+.part2 {
+    float: left;
+    width: 1180px;
+    height: auto;
+    overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.tb {
+    width: 100%;
+    align: center;
+    border-collapse: collapse;
+}
+
+.tb1 {
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 10px;
+}
+
+.tb1 p {
+    text-align: center;
+    text-indent: 0px;
+}
+
+.tb1 p span {
+    font-family: 等线;
+}
+
+.tb1 p span img {
+    width: 140px;
+    height: 180px;
+}
+
+.tb2 {
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 10px;
+}
+
+.alu {
+    width: 1180px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.alu .item{
+    width: 100%;
+}
+
+.alu .item ul li {
+    font-size: 14px;
+    line-height: 38px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.alu .item ul li:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #900;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 15px 0 0 0;
+}
+
+
+
 
 /*.home1l p {*/
 /*    line-height: 190%;*/

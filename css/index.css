@@ -1,4 +1,4 @@
-﻿/* CSS Document */
+/* CSS Document */
 
 * {
     margin: 0;
@@ -284,7 +284,8 @@ a:hover {
 .home1l p {
     line-height: 190%;
     text-indent: 2em;
-    color: #666;
+    /*color: #666;*/
+    color: #000;
     width: 100%;
     position: relative;
 }
@@ -1166,7 +1167,7 @@ a:hover {
     overflow: auto;
 }
 
-.alu .item{
+.alu .item {
     width: 100%;
 }
 
@@ -1192,23 +1193,105 @@ a:hover {
 }
 
 
+.area {
+    background: url(../images/kuang.gif) left center no-repeat;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+
+.des {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    text-align: left;
+    text-indent: 2em;
+}
 
 
-/*.home1l p {*/
-/*    line-height: 190%;*/
-/*    text-indent: 2em;*/
-/*    color: #666;*/
-/*    width: 100%;*/
-/*    position: relative;*/
-/*}*/
+.des2 {
+    /*display: inline-block;*/
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    text-align: left;
+    text-indent: 2em;
+}
 
-/*.home1l p a {*/
-/*}*/
 
-/*.home1l p span a {*/
-/*    display: block;*/
-/*    font-size: 14px;*/
-/*    position: absolute;*/
-/*    right: 5px;*/
-/*    bottom: 0;*/
-/*}*/
+.des_img {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20%;
+    position: relative;
+    z-index: 1;
+}
+
+.des2 ol {
+    height: auto;
+    width: 100%;
+}
+
+.des2 ol li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.team_img {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 4%;
+    position: relative;
+    z-index: 1;
+}
+
+.team_img .cap1{
+    display: inline;
+    margin-left: 20%;
+}
+.team_img .cap2{
+    display: inline;
+    margin-left: 42%;
+}
+
+
+
+.main-box { width: 74%; margin: .4rem 0 0; margin-left: 10%}
+.main-box .list { margin: 0; }
+.main-box .list li { padding: .2rem 0;  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .3);
+ }
+.main-box .list li:hover {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, .3);
+ }
+.main-box .list li:hover .date2 { color: #fff; width: 10%; text-align: center;}
+.main-box .list li:hover .date2 p:first-child { color: #fff; }
+.main-box .list li:hover .date2 p:first-child:after { background: #fff; }
+.main-box .list li:hover .date2:before { -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -o-transform: rotateY(0deg); transform: rotateY(0deg); }
+.main-box .list li:hover .title { color: #900; }
+.main-box .list li:hover .info { color: #333; }
+.main-box .list .date2 { width: 10%; text-align: center; color: #900; border: 1px solid #900; -webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; font-size: 18px; font-family: Arial, Helvetica, sans-serif; position: relative; overflow: hidden; }
+.main-box .list .date2 p { position: relative; z-index: 2; -webkit-transition: all 0.35s ease 0s; -moz-transition: all 0.35s ease 0s; -o-transition: all 0.35s ease 0s; transition: all 0.35s ease 0s; }
+.main-box .list .date2 p:first-child { font-size: 18px; color: #900; margin: 0 0 .05rem; }
+.main-box .list .date2 p:first-child:after { display: block; content: ""; box-sizing: border-box; width: 74%; height: 1px; margin: 0 auto; background: #900; -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -o-transform: rotateY(0deg); transform: rotateY(0deg); }
+.main-box .list .date2:before { display: block; content: ""; box-sizing: border-box; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; background-image: url("../images/date_bg.png"); background-repeat: no-repeat; background-position: 50% 50%; background-color: transparent; background-size: cover; -webkit-transition: all 0.35s ease 0s; -moz-transition: all 0.35s ease 0s; -o-transition: all 0.35s ease 0s; transition: all 0.35s ease 0s; -webkit-transform: rotateY(90deg); -moz-transform: rotateY(90deg); -o-transform: rotateY(90deg); transform: rotateY(90deg); transform-origin: 0 50%; }
+.main-box .list .text { width: 50%; }
+.main-box .list .title1 { display: block; width: 60%; height: auto; max-height: none; margin: 0; }
+.main-box .list .info { max-height: 40px; margin: 4px 0 0; line-height: 20px; -webkit-line-clamp: 2; }
+
+

@@ -771,9 +771,10 @@ a:hover {
 }
 
 .node {
-    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     width: 100%;
-    border-bottom: 1px dotted #CFCFCF
+    /*border-bottom: 1px dotted #CFCFCF*/
 }
 
 /* 单个文章信息 */
@@ -822,17 +823,17 @@ a:hover {
 
 .lbpic ul li {
     float: left;
-    width: 270px;
-    height: 200px;
+    width: 560px;
+    height: 400px;
     overflow: hidden;
     position: relative;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .lbpic ul li img {
-    width: 270px;
-    height: 200px;
+    width: 560px;
+    height: 400px;
 }
 
 .lbpic ul li span {
@@ -841,11 +842,11 @@ a:hover {
     left: 0;
     width: 100%;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
     height: 30px;
     background: #fff;
-    filter: Alpha(opacity=50);
+    /*filter: Alpha(opacity=50);*/
 }
 
 .nyinfo {
@@ -1113,7 +1114,7 @@ a:hover {
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
     position: relative;
 }
 
@@ -1124,6 +1125,7 @@ a:hover {
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
+    /*margin-top: 40px;*/
     position: relative;
 }
 
@@ -1226,6 +1228,9 @@ a:hover {
     text-indent: 2em;
 }
 
+/*.des2 p {*/
+/*    */
+/*}*/
 
 .des_img {
     width: 100%;
@@ -1259,11 +1264,13 @@ a:hover {
 
 .team_img .cap1{
     display: inline;
-    margin-left: 20%;
+    margin-left: 25%;
+    text-align: center;
 }
 .team_img .cap2{
     display: inline;
-    margin-left: 42%;
+    margin-left: 30%;
+    text-align: center;
 }
 
 

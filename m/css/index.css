@@ -1,4 +1,4 @@
-﻿/* CSS Document */
+/* CSS Document */
 
 * {
     margin: 0;
@@ -14,8 +14,8 @@ body {
     border: 0;
     padding: 0;
     margin: 0;
-    background: url(../images/bg.png) center 158px no-repeat #F8F8F8;
-    font-size: 16px;
+    /*background: url(../images/bg.png) center 158px no-repeat #F8F8F8;*/
+    /*font-size: 16px;*/
     font-family: '微软雅黑', 'Microsoft YaHei', 'Arial';
     color: #000;
     line-height: 180%;
@@ -28,6 +28,7 @@ body {
 a {
     text-decoration: none;
     color: #333;
+    font-size: 12px;
 }
 
 a:hover {
@@ -40,35 +41,48 @@ a:hover {
     width: 100%;
 }
 
-/*#topbg{ background:url(../images/top-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
+/*#topbg{ background:url(../images/hn-foot-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
 #topbg {
     width: 100%;
-    height: 159px;
-    min-width: 1200px;
+    height: 55px;
+    min-width: 300px;
     background: #C00
 }
 
 #topm {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    height: 159px;
+    /*height: 10%;*/
     position: relative;
 }
 
 .logo {
-    width: 410px;
-    height: 71px;
+    width: 40%;
+    /*height: 71px;*/
     position: absolute;
-    top: 43px;
+    top: 10px;
     left: 0;
 }
 
+.logo img{
+    width: 100%;
+    /*height: 71px;*/
+    display: block;
+
+}
+
+
 .topr {
     position: absolute;
-    width: 500px;
-    height: 150px;
-    right: 0;
-    top: 43px;
+    width: 20%;
+    top:5px;
+    right: 5px;
+}
+
+.topr img{
+    width: 100%;
+    /*height: 71px;*/
+    display: block;
 }
 
 .menubox {
@@ -76,9 +90,9 @@ a:hover {
 }
 
 #nav-menu {
-    height: 50px;
+    height: 70px;
     background: #C00;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -89,13 +103,13 @@ a:hover {
 }
 
 #nav-menu .menu {
-    padding: 0 0 0 16px;
+    padding: 0 0 0 10px;
 }
 
 #nav-menu .menu li {
     position: relative;
     float: left;
-    padding: 0 10px 0 7px;
+    /*padding: 0 0px 0 1px;*/
     display: inline;
 }
 
@@ -109,10 +123,10 @@ a:hover {
     margin-top: 8px;
     display: inline-block;
     color: #FFF;
-    height: 42px;
+    height: 20px;
     text-decoration: none;
-    font-size: 16px;
-    width: 120px;
+    font-size: 12px;
+    width: 85px;
     text-align: center;
 }
 
@@ -125,8 +139,8 @@ a:hover {
 }
 
 #nav-menu .menu li a.xialaguang span {
-    height: 40px;
-    line-height: 35px;
+    height: 20px;
+    line-height: 20px;
     display: inline-block;
 }
 
@@ -135,7 +149,7 @@ a:hover {
 }
 
 #nav-menu .menu li a.navhover span, #nav-menu .menu li a.xialaguang:hover span {
-    width: 100px;
+    width: 85px;
 }
 
 #nav-menu .menu ul.children {
@@ -143,7 +157,7 @@ a:hover {
     position: absolute;
     top: 50px;
     left: 5px;
-    width: 124px;
+    width: 85px;
     background: #FFF;
     border: 2px solid #C00;
     border-top: 0;
@@ -152,10 +166,10 @@ a:hover {
 }
 
 #nav-menu .menu ul.children li {
-    width: 120px;
+    width: 85px;
     padding: 0px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     border-top: 1px solid #eee;
 }
 
@@ -173,7 +187,7 @@ a:hover {
     color: #C00;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 #nav-menu .menu ul.children li a:hover {
@@ -182,17 +196,15 @@ a:hover {
 }
 
 .banner {
-    width: 1200px;
-    height: 600px;
+    width: 100%;
     margin: 0 auto;
-    background: url(../images/hnu.jpg) no-repeat center center;
+    /*background: url(../images/hnu.jpg) no-repeat center center;*/
     overflow: hidden;
 }
 
 .slideshow {
     position: relative;
     z-index: 1;
-    height: 600px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -211,15 +223,13 @@ a:hover {
 }
 
 .slideshow .item {
-    height: 600px;
-    width: 1200px;
+    width: 100%;
     position: relative;
     z-index: 1;
 }
 
 .slideshow .item img {
-    height: 600px;
-    width: 1200px;
+    width: 100%;
     -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
     transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
     -webkit-transform: scale(1.2);
@@ -237,11 +247,11 @@ a:hover {
     padding-left: 20px;
     height: 40px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     width: 200px;
     float: left;
-    margin: 10px 0;
+    /*margin: 10px 0;*/
 }
 
 .title a {
@@ -252,11 +262,11 @@ a:hover {
     padding-right: 16px;
     height: 40px;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 12px;
     width: 120px;
     float: right;
     text-align: right;
-    margin: 10px 0;
+    /*margin: 0px 0;*/
 }
 
 .more a {
@@ -264,7 +274,7 @@ a:hover {
 
 
 .home1 {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -273,18 +283,18 @@ a:hover {
 
 .home1l {
     float: left;
-    width: 1180px;
+    width: 100%;
     height: auto;
     overflow: auto;
-    margin-left: 10px;
-    margin-right: 10px;
     position: relative;
 }
 
 .home1l p {
     line-height: 190%;
     text-indent: 2em;
-    color: #666;
+    /*color: #666;*/
+    font-size: 12px;
+    color: #000;
     width: 100%;
     position: relative;
 }
@@ -302,18 +312,17 @@ a:hover {
 
 .home1f {
     float: left;
-    width: 590px;
+    width: 100%;
     height: auto;
     overflow: auto;
-    margin-left: 10px;
 }
 
 .home1r {
     float: right;
-    width: 560px;
+    width: 100%;
     height: auto;
     overflow: auto;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 }
 
 .home1r .bd ul {
@@ -331,29 +340,29 @@ a:hover {
 
 .home1r .bd li span {
     float: right;
-    font-size: 12px;
+    font-size: 10px;
     color: #666;
     text-align: right;
 }
 
 
 .newspic {
-    width: 590px;
-    height: 305px;
+    width: 100%;
+    height: 200px;
     position: relative;
     float: left;
     overflow: hidden;
 }
 
 .column1_left {
-    width: 590px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .container {
-    width: 590px;
-    height: 305px;
+    width: 100%;
+    height: 200px;
     overflow: hidden;
     position: relative;
     background: #000
@@ -365,8 +374,8 @@ a:hover {
 }
 
 .slider img {
-    width: 590px;
-    height: 305px;
+    width: 100%;
+    height: 200px;
     display: block;
     border: 0;
 }
@@ -411,7 +420,7 @@ a:hover {
     position: absolute;
     left: 10px;
     bottom: 0px;
-    width: 590px;
+    width: 100%;
     z-index: 10;
     text-align: left;
     font-size: 14px;
@@ -423,7 +432,7 @@ a:hover {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    width: 590px;
+    width: 100%;
     filter: alpha(opacity=50);
     opacity: 0.5;
 }
@@ -437,9 +446,9 @@ a:hover {
 .spimg {
     float: left;
     width: 140px;
-    height: 240px;
-    margin-right: 28px;
-    margin-left: 18px;
+    /*height: 240px;*/
+    margin-right: -40px;
+    margin-left: 5px;
     display: block;
     position: relative;
     z-index: 22;
@@ -485,7 +494,7 @@ a:hover {
 
 
 .home2 {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -494,15 +503,15 @@ a:hover {
 
 .home2 .hometab {
     float: left;
-    width: 380px;;
-    margin: 12px 10px 2px 10px;
+    width: 100%;
+    /*margin: 0px 10px 2px 10px;*/
     height: 366px;
 }
 
 .home2 .hometab .tabtj {
     height: 95px;
-    width: 370px;
-    margin: 0 auto
+    width: 100%;
+    margin: 0 auto;
 }
 
 .home2 .hometab .tabtj a:hover {
@@ -537,7 +546,7 @@ a:hover {
 }
 
 .home2 .hometab .tablb {
-    width: 370px;
+    width: 98%;
     height: 209px;
     padding-top: 10px;
     margin: 0 auto;
@@ -561,37 +570,37 @@ a:hover {
 }
 
 .home3 {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
     background: #FFF;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .home3 .homegd {
-    height: 250px;
-    margin: 10px 10px;
+    height: 100%;
+    /*margin: 10px 10px;*/
 }
 
 .blk_18 {
     overflow: hidden;
     zoom: 1;
     font-size: 9pt;
-    width: 1180px;
+    width: 100%
 }
 
 .blk_18 .pcont {
-    width: 1120px;
+    width: 100%;
     float: left;
     overflow: hidden;
     padding-left: 0px;
 }
 
 .blk_18 .ScrCont {
-    width: 32766px;
+    width: 100%;
     zoom: 1;
-    margin-left: -5px;
+    /*margin-left: -5px;*/
 }
 
 .blk_18 #List1_1, .blk_18 #List2_1 {
@@ -631,13 +640,12 @@ a:hover {
 }
 
 .blk_18 .pl {
-    width: 225px;
+    width: 100%;
     border: 1px solid #fff;
-    float: left;
     float: left;
     text-align: center;
     line-height: 28px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 
 .blk_18 a.pl:hover {
@@ -649,18 +657,18 @@ a:hover {
 
 /*ny */
 .nyban {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: 90px;
     overflow: auto;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 105%;
     padding-top: 30px;
     text-align: center
 }
 
 .ny1 {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -687,7 +695,7 @@ a:hover {
 }
 
 .ny2 {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -699,7 +707,7 @@ a:hover {
 }
 
 .ny3 {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -708,7 +716,7 @@ a:hover {
 }
 
 .nysg {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     overflow: auto;
@@ -770,9 +778,10 @@ a:hover {
 }
 
 .node {
-    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     width: 100%;
-    border-bottom: 1px dotted #CFCFCF
+    /*border-bottom: 1px dotted #CFCFCF*/
 }
 
 /* 单个文章信息 */
@@ -810,28 +819,28 @@ a:hover {
 
 
 .lbpic {
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .lbpic ul {
     height: auto;
     width: 100%;
-    min-height: 430px;
+    min-height: 200px;
 }
 
 .lbpic ul li {
     float: left;
-    width: 270px;
-    height: 200px;
+    width: 100%;
+    /*height: 400px;*/
     overflow: hidden;
     position: relative;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    /*margin-left: 20px;*/
+    margin-bottom: 10px;
 }
 
 .lbpic ul li img {
-    width: 270px;
-    height: 200px;
+    width: 100%;
+    /*height: 400px;*/
 }
 
 .lbpic ul li span {
@@ -844,7 +853,7 @@ a:hover {
     line-height: 30px;
     height: 30px;
     background: #fff;
-    filter: Alpha(opacity=50);
+    /*filter: Alpha(opacity=50);*/
 }
 
 .nyinfo {
@@ -858,7 +867,7 @@ a:hover {
     text-align: center;
     padding: 10px 5px;
     display: block;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 150%;
 }
 
@@ -972,17 +981,18 @@ a:hover {
     width: 100%;
     border-top: 1px #555 solid;
     background: #900;
-    height: 120px;
-    padding: 30px 0;
+    /*background:url(../images/hn-foot-bg.jpg) no-repeat center center; */
+    height: 60px;
+    padding: 5px 0;
     position: relative;
     bottom: 0;
     left: 0;
-    min-width: 1200px;
-    font-size: 14px;
+    min-width: 300px;
+    font-size: 10px;
 }
 
 .footmm {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     position: relative;
@@ -991,7 +1001,7 @@ a:hover {
 
 .footer p {
     text-align: center;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     color: #FFF
 }
@@ -1002,7 +1012,7 @@ a:hover {
 
 .footer p a {
     color: #FFF;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .footer p a:hover {
@@ -1020,35 +1030,44 @@ a:hover {
 
 
 .g-team {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 50px;
     overflow: auto;
 }
 
 .g-team .item {
-    width: 395px;
-    height: 170px;
-    border: 1px solid #e5e5e5;
-    margin-left: 80px;
+    width: 70%;
+    height: 100px;
+    /*border: 1px solid #700;*/
+    margin-left: 90px;
     position: relative;
-    padding-left: 90px;
-    padding-top: 20px;
+    padding-left: 30px;
+    /*padding-top: 0px;*/
     float: left;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
-.g-team .item:nth-child(2n) {
-    margin-left: 130px;
+.g-team .item .teamname {
+    FONT-SIZE: 14px;
+    POSITION: absolute;
+    LEFT: 87px;
+    DISPLAY: inline-block;
+    TOP: -30px;
+}
+
+
+.g-team .item:nth-child(3n) {
+    margin-left: 90px;
 }
 
 .g-team .item img {
-    width: 140px;
-    height: 190px;
+    width: 98px;
+    height: 126px;
     background: #eee;
     position: absolute;
     left: -80px;
-    top: -50px;
+    top: -40px;
 }
 
 .g-team .item span {
@@ -1056,17 +1075,127 @@ a:hover {
     position: absolute;
     left: 87px;
     top: -45px;
-    font-size: 24px;
+    font-size: 12px;
 }
 
+/*.g-team .item ul{*/
+/*    display:block;*/
+/*       list-style-type:none;*/
+/*margin:-5px;*/
+/*}*/
 .g-team .item ul li {
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.g-team .item ul li:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #900;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 7px 0 0 0;
+}
+
+
+.part {
+    width: 100%;
+    /*margin: 0 auto;*/
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+    height: auto;
+    overflow: auto;
+    background: #FFF;
+}
+
+
+.part1 {
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.part2 {
+    float: left;
+    width: 95%;
+    height: auto;
+    overflow: auto;
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*margin-top: 40px;*/
+    position: relative;
+}
+
+.tb {
+    width: 100%;
+    align: center;
+    border-collapse: collapse;
+}
+
+.tb1 {
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 10px;
+}
+
+.tb1 p {
+    text-align: center;
+    text-indent: 0px;
+}
+
+.tb1 p span {
+    font-family: 等线;
+}
+
+.tb1 p span img {
+    width: 98px;
+    height: 126px;
+}
+
+.tb2 {
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 10px;
+}
+
+.tb2 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.alu {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.alu .item {
+    width: 100%;
+}
+
+.alu .item ul li {
+    font-size: 14px;
     line-height: 38px;
     position: relative;
     padding-left: 20px;
 }
 
-.g-team .item ul li:before {
+.alu .item ul li:before {
     content: '';
     display: inline-block;
     width: 6px;
@@ -1081,32 +1210,110 @@ a:hover {
 }
 
 
-
-.part1 {
+.area {
+    background: url(../images/kuang.gif) left center no-repeat;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
     float: left;
-    width: 1180px;
-    height: auto;
-    overflow: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
+    margin: 10px 0;
 }
 
-/*.home1l p {*/
-/*    line-height: 190%;*/
-/*    text-indent: 2em;*/
-/*    color: #666;*/
-/*    width: 100%;*/
-/*    position: relative;*/
+.des {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    text-align: left;
+    text-indent: 2em;
+}
+
+
+.des2 {
+    /*display: inline-block;*/
+    font-size: 12px;
+    padding-left: 5px;
+    /*padding-right: 20px;*/
+    color: #000;
+    text-align: left;
+    /*text-indent: 2em;*/
+}
+
+/*.des2 p {*/
+/*    */
 /*}*/
 
-/*.home1l p a {*/
-/*}*/
+.des_img {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 7%;
+    position: relative;
+    z-index: 1;
+}
 
-/*.home1l p span a {*/
-/*    display: block;*/
-/*    font-size: 14px;*/
-/*    position: absolute;*/
-/*    right: 5px;*/
-/*    bottom: 0;*/
-/*}*/
+.des2 ol {
+    height: auto;
+    width: 100%;
+}
+
+.des2 ol li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.team_img {
+    width: 100%;
+    /*margin-top: 20px;*/
+    /*padding-left: 4%;*/
+    position: relative;
+    z-index: 1;
+}
+
+.team_img .cap1{
+    display: inline;
+    margin-left: 25%;
+    text-align: center;
+}
+.team_img .cap2{
+    display: inline;
+    margin-left: 30%;
+    text-align: center;
+}
+
+
+
+.main-box { width: 74%; margin: .4rem 0 0; margin-left: 10%}
+.main-box .list { margin: 0; }
+.main-box .list li { padding: .2rem 0;  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .3);
+ }
+.main-box .list li:hover {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, .3);
+ }
+.main-box .list li:hover .date2 { color: #fff; width: 10%; text-align: center;}
+.main-box .list li:hover .date2 p:first-child { color: #fff; }
+.main-box .list li:hover .date2 p:first-child:after { background: #fff; }
+.main-box .list li:hover .date2:before { -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -o-transform: rotateY(0deg); transform: rotateY(0deg); }
+.main-box .list li:hover .title { color: #900; }
+.main-box .list li:hover .info { color: #333; }
+.main-box .list .date2 { width: 10%; text-align: center; color: #900; border: 1px solid #900; -webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; font-size: 18px; font-family: Arial, Helvetica, sans-serif; position: relative; overflow: hidden; }
+.main-box .list .date2 p { position: relative; z-index: 2; -webkit-transition: all 0.35s ease 0s; -moz-transition: all 0.35s ease 0s; -o-transition: all 0.35s ease 0s; transition: all 0.35s ease 0s; }
+.main-box .list .date2 p:first-child { font-size: 18px; color: #900; margin: 0 0 .05rem; }
+.main-box .list .date2 p:first-child:after { display: block; content: ""; box-sizing: border-box; width: 74%; height: 1px; margin: 0 auto; background: #900; -webkit-transform: rotateY(0deg); -moz-transform: rotateY(0deg); -o-transform: rotateY(0deg); transform: rotateY(0deg); }
+.main-box .list .date2:before { display: block; content: ""; box-sizing: border-box; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; background-image: url("../images/date_bg.png"); background-repeat: no-repeat; background-position: 50% 50%; background-color: transparent; background-size: cover; -webkit-transition: all 0.35s ease 0s; -moz-transition: all 0.35s ease 0s; -o-transition: all 0.35s ease 0s; transition: all 0.35s ease 0s; -webkit-transform: rotateY(90deg); -moz-transform: rotateY(90deg); -o-transform: rotateY(90deg); transform: rotateY(90deg); transform-origin: 0 50%; }
+.main-box .list .text { width: 50%; }
+.main-box .list .title1 { display: block; width: 60%; height: auto; max-height: none; margin: 0; }
+.main-box .list .info { max-height: 40px; margin: 4px 0 0; line-height: 20px; -webkit-line-clamp: 2; }
+
+

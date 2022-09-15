@@ -52,7 +52,7 @@ a:hover {
 #topm {
     width: 100%;
     /*margin: 0 auto;*/
-    margin-left: 10px;
+    /*padding-left: 2%;*/
     /*height: 10%;*/
     position: relative;
 }
@@ -62,7 +62,7 @@ a:hover {
     /*height: 71px;*/
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 2%;
 }
 
 .logo img {

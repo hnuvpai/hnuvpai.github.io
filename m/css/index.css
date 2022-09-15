@@ -14,7 +14,7 @@ body {
     border: 0;
     padding: 0;
     margin: 0;
-    /*background: url(../images/bg.png) center 158px no-repeat #F8F8F8;*/
+    /*background: url(../../images/bg.png) center 158px no-repeat #F8F8F8;*/
     /*font-size: 16px;*/
     font-family: '微软雅黑', 'Microsoft YaHei', 'Arial';
     color: #000;
@@ -41,7 +41,7 @@ a:hover {
     width: 100%;
 }
 
-/*#topbg{ background:url(../images/hn-foot-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
+/*#topbg{ background:url(../../images/hn-foot-bg.jpg) no-repeat center center;  width:100%; height:159px; min-width:1200px; background:#C00 }*/
 #topbg {
     width: 100%;
     height: 55px;
@@ -198,7 +198,7 @@ a:hover {
 .banner {
     width: 100%;
     margin: 0 auto;
-    /*background: url(../images/hnu.jpg) no-repeat center center;*/
+    /*background: url(../../images/hnu.jpg) no-repeat center center;*/
     overflow: hidden;
 }
 
@@ -243,7 +243,7 @@ a:hover {
 
 
 .title {
-    background: url(../images/kuang.gif) left center no-repeat;
+    background: url(../../images/kuang.gif) left center no-repeat;
     padding-left: 20px;
     height: 40px;
     line-height: 40px;
@@ -258,7 +258,7 @@ a:hover {
 }
 
 .more {
-    background: url(../images/more.gif) right center no-repeat;
+    background: url(../../images/more.gif) right center no-repeat;
     padding-right: 16px;
     height: 40px;
     line-height: 40px;
@@ -335,7 +335,7 @@ a:hover {
 .home1r .bd li {
     height: 28px;
     line-height: 28px;
-    background: url("../images/red.png") no-repeat left center;
+    background: url("../../images/red.png") no-repeat left center;
     padding-left: 20px;
     margin-left: 0px
 }
@@ -400,17 +400,17 @@ a:hover {
     float: left;
     width: 21px;
     height: 20px;
-    background: url(../images/ink0721hui.png) no-repeat center center;
+    background: url(../../images/ink0721hui.png) no-repeat center center;
     _background: none;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ink0721hui.png', sizingMethod='crop');
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/ink0721hui.png', sizingMethod='crop');
     cursor: pointer;
     overflow: hidden;
 }
 
 .num li.on {
-    background: url(../images/ink0721hui1.png) no-repeat center center;
+    background: url(../../images/ink0721hui1.png) no-repeat center center;
     _background: none;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ink0721hui1.png', sizingMethod='crop');
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/ink0721hui1.png', sizingMethod='crop');
     width: 21px;
     height: 20px;
 }
@@ -559,7 +559,7 @@ a:hover {
 }
 
 .home2 .hometab .tablb ul li {
-    background: url("../images/red.png") no-repeat left center;
+    background: url("../../images/red.png") no-repeat left center;
     padding-left: 20px;
 }
 
@@ -617,7 +617,7 @@ a:hover {
     width: 15px;
     height: 74px;
     float: left;
-    background: url("../images/ax.gif") no-repeat;
+    background: url("../../images/ax.gif") no-repeat;
 }
 
 .blk_18 .LeftBotton {
@@ -745,13 +745,13 @@ a:hover {
     width: 100%;
     padding-left: 25px;
     font-weight: bold;
-    background: url("../images/kuang.gif") no-repeat left center;
+    background: url("../../images/kuang.gif") no-repeat left center;
     height: 55px;
     line-height: 55px;
 }
 
 .nymenu ul li {
-    background: url("../images/red.png") no-repeat left center;
+    background: url("../../images/red.png") no-repeat left center;
     padding-left: 20px;
     height: 35px;
     width: 100%;
@@ -760,7 +760,7 @@ a:hover {
 
 
 .lbtitle {
-    background: url(../images/kuang.gif) left center no-repeat;
+    background: url(../../images/kuang.gif) left center no-repeat;
     padding-left: 20px;
     height: 40px;
     line-height: 40px;
@@ -987,7 +987,7 @@ a:hover {
     width: 100%;
     border-top: 1px #555 solid;
     background: #900;
-    /*background:url(../images/hn-foot-bg.jpg) no-repeat center center; */
+    /*background:url(../../images/hn-foot-bg.jpg) no-repeat center center; */
     height: 60px;
     padding: 5px 0;
     position: relative;
@@ -1031,7 +1031,7 @@ a:hover {
     top: 50px;
     width: 100px;
     height: 100px;
-    background: url(../images/wx.jpg) no-repeat;
+    background: url(../../images/wx.jpg) no-repeat;
 }
 
 
@@ -1217,7 +1217,7 @@ a:hover {
 
 
 .area {
-    background: url(../images/kuang.gif) left center no-repeat;
+    background: url(../../images/kuang.gif) left center no-repeat;
     padding-left: 20px;
     height: 40px;
     line-height: 40px;
@@ -1402,7 +1402,7 @@ a:hover {
     bottom: 0;
     left: 0;
     z-index: 1;
-    background-image: url("../images/date_bg.png");
+    background-image: url("../../images/date_bg.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-color: transparent;

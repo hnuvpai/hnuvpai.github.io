@@ -1,7 +1,0 @@
-markdown: kramdown
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-baseurl: "/"
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

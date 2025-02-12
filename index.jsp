@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <!doctype html>
 <html lang="zh">
 <head>
@@ -137,7 +139,7 @@
                  alt="李树涛教授"/>
         </div>
         <p>
-            李树涛，湖南大学教授，博士生导师，湖南大学副校长，兼机器人学院院长，“长江学者”特聘教授，国家“万人计划”领军人才，国家自然科学基金委创新群体负责人。李树涛教授长期围绕图像信息融合、高分辨成像与图像识别开展研究，在国家重点研发计划、国家自然科学基金杰出青年基金等重大重点项目支持下，历经十余年攻关，建立了图像结构化稀疏表示与融合理论体系，提出了高分辨高光谱图像高效识别方法，突破了压缩感知空谱融合成像、多维高分探测、跨模态跨尺度信息融合识别等一系列关键核心技术，研究成果成功应用于航空航天、遥感信息、军事国防等重大战略需求领域，取得了良好的社会和经济效益。相关成果获国家自然科学二等奖2项，国家科技进步二等奖2项，国家科技进步奖创新团队奖1项，省部级科技奖励4项，授权发明专利30余项，在国内外高水平学术期刊和会议发表学术论文300余篇，其中SCI 收录 100 余篇，IEEE 汇刊论文 90余篇，ESI 高被引论文 25 篇，热点论文 5 篇，论文总他引2.7万余次，Web of Science总他引13780余次，连续 5 年入选科睿唯安全球高被引科学家与Elsevier 中国高被引学者，因在图像信息融合与识别上的贡献入选IEEE Fellow。
+            李树涛，湖南大学教授，博士生导师，湖南大学副校长，兼机器人学院院长，“长江学者”特聘教授，国家“万人计划”领军人才，国家自然科学基金委创新群体负责人。李树涛教授长期围绕图像信息融合、高分辨成像与图像识别开展研究，在国家重点研发计划、国家自然科学基金杰出青年基金等重大重点项目支持下，历经十余年攻关，建立了图像结构化稀疏表示与融合理论体系，提出了高分辨高光谱图像高效识别方法，突破了压缩感知空谱融合成像、多维高分探测、跨模态跨尺度信息融合识别等一系列关键核心技术，研究成果成功应用于航空航天、遥感信息、军事国防等重大战略需求领域，取得了良好的社会和经济效益。相关成果获国家自然科学二等奖1项，国家科技进步二等奖2项，国家科技进步奖创新团队奖1项，省部级科技奖励4项，授权发明专利30余项，在国内外高水平学术期刊和会议发表学术论文300余篇，其中SCI 收录 100 余篇，IEEE 汇刊论文 90余篇，ESI 高被引论文 25 篇，热点论文 5 篇，论文总他引2.7万余次，Web of Science总他引13780余次，连续 5 年入选科睿唯安全球高被引科学家与Elsevier 中国高被引学者，因在图像信息融合与识别上的贡献入选IEEE Fellow。
 </p>
 
         <div class="clear"></div>
@@ -198,7 +200,6 @@
         <div class="clear"></div>
         <div class="bd">
             <ul>
-                <li><a>国家自然科学基金创新研究群体项目（1000万）</a><span>2023.01-2026.12</span></li>
                 <li><a>XXXXXX重点项目（3000万）</a><span>2021.01-2023.12</span></li>
                 <li><a>国家重点研发计划课题（332万）</a><span>2021.12-2026.11</span></li>
                 <li><a>国家自然科学基金重点项目（260万）</a><span>2022.01-2025.12</span></li>
@@ -325,10 +326,11 @@
         <div class="more"><a href="team.html">more</a></div>
         <div class="clear"></div>
         <!-- picrotate_left start  -->
-        <div class="blk_18">
-<!--            <div class="pcont" id="ISL_Cont_1">-->
+        <div class="blk_18"><a class="LeftBotton" onMouseDown="ISL_GoUp_1()" onMouseUp="ISL_StopUp_1()"
+                               onMouseOut="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></a>
+            <div class="pcont" id="ISL_Cont_1">
                 <div class="ScrCont">
-<!--                    <div id="List1_1">-->
+                    <div id="List1_1">
                         <!-- piclist begin -->
 
                         <a class="pl" href="team.html"><img src="images/index/team_photo1.jpg" alt="团队大合影"
@@ -344,11 +346,12 @@
                         <a class="pl" href="team.html"><img src="images/index/lanqiusai.jpg" alt="实验室篮球赛"
                                                             width="200" height="145"/>实验室篮球赛</a>
                         <!-- piclist end -->
-<!--                    </div>-->
-<!--                    <div id="List2_1"></div>-->
+                    </div>
+                    <div id="List2_1"></div>
                 </div>
-<!--            </div>-->
-        </div>
+            </div>
+            <a class="RightBotton" onMouseDown="ISL_GoDown_1()" onMouseUp="ISL_StopDown_1()"
+               onMouseOut="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a></div>
         <div class="c"></div>
         <script src="js/gd.js"></script>
         <script type="text/javascript">
